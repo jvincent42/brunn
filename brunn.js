@@ -24,7 +24,7 @@ const list = blessed.list({
 list.on('select', item => {
   screen.destroy();
   shell.echo(`Running --- ${item.getText()} ---`);
-  if (shell.exec(`npm run ${item.getText()}`).code !== 0) {
+  if (shell.exec(`npm run ${item.getText()} --color always`).code !== 0) {
     shell.exit(1);
   }
 });
