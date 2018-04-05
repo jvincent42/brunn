@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "ato <j.vincent.off@gmail.com>",
+  "author": "jvincent <j.vincent.off@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "blessed": "^0.1.81",
